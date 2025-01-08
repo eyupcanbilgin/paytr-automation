@@ -136,10 +136,3 @@ public class BaseTest {
         }
     }
 }
-
-                  /*                                                               ÖZET
-                    Bu sınıf, testlerimizin koşmaya başlamadan önce tanımlamalar yaptığımız ve her testten önce gerçekleşmesini istediğimiz genel kuralları belirler.
-                    Driver'ın ayağ kalkması
-                    browser'ın seçilmesi ve modifiye edilmesi
-                    Test senaryolarından sonra driver'ın kapatılması gibi işlemleri gerçekleştiriyoruz.
-                  */

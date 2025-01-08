@@ -250,7 +250,7 @@ public class FrontendSteps extends BaseTest {
             WebElement element = findElement(key); // JSON'dan alınan key ile elementi buluyor
             String elementText = element.getText();
 
-            // Referans numarasını ayıklayın (örneğin, "Referans no: 173L6W299OG77P96" gibi bir metinden numarayı çıkarın)
+            // Referans numarasını ayıkla
             String referenceNumber = elementText.split(":")[1].trim();
 
             // Dosyaya yazma işlemi
@@ -266,23 +266,3 @@ public class FrontendSteps extends BaseTest {
     }
 
 }
-
-
-
-
-
-
-
-                                     /*
-                                     @Step anatosyonu Gauge kütüphanesine ait bir anatosyondur. bunun ile testlerimizde sürekli olarak çağırabileceğimiz
-                                     cümlecikler halinde metodlar oluşturuyoruz.
-                                     Bu sınıfı BaseTest sınıfı ile extends ediyoruz çünkü BaseTest sınıfında driver nesnesini oluşturuyoruz.
-                                     BaseTest de olması gerekenler burada da olmalıdır.
-                                     Extend ederek bir başka sınıfın özelliklerini miras alıp kullanabiliriz.
-
-                                     bir sınıf başka bir sınıfı "extend" ettiğinde, temel alınan sınıfın ("superclass" veya "parent class" olarak adlandırılır) tüm halka açık metotları ve özellikleri, türetilen sınıfa ("subclass" veya "child class") aktarılır.
-                                     Bu işlem sayesinde, kod tekrarını önlemek ve kodun yeniden kullanılabilirliğini artırmak mümkün olur.
-
-                                     Polimorfizm: Alt sınıflar, üst sınıfın metodlarını kendi ihtiyaçlarına göre "override" edebilir (üzerine yazabilir),
-                                     böylece aynı metot adı farklı sınıflarda farklı davranışlar sergileyebilir.
-                                      */
