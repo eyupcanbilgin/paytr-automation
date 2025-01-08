@@ -178,7 +178,7 @@
   {
     "key": "onBasvuruYapButton",
     "type": "xpath",
-    "value": "//button[contains(@class, 'style_button__dHHoa') and text()='Ön Başvuruyu Yap']"
+    "value": "//button[contains(text(), 'Ön Başvuruyu Yap') and @type='submit']"
   }
 ,
   {
