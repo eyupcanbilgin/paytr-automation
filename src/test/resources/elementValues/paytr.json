@@ -132,8 +132,8 @@
   },
   {
     "key": "referansNumarasi",
-    "type": "css",
-    "value": "a.style_reference__fbdIc"
+    "type": "xpath",
+    "value": "//a[contains(text(), 'Referans no:')]"
   },
   {
     "key": "isletmeTipiDropdown",
