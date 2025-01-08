@@ -1,0 +1,190 @@
+[
+  {
+    "key": "isletmeTipiDropdown",
+    "value": "div.select-selected",
+    "type": "css"
+  },
+    {
+      "key": "acceptCookiesButton",
+      "value": "//button[contains(@class, 'accept-cookie-btn')]",
+      "type": "xpath"
+    },
+  {
+    "key": "adField",
+    "value": "first-name",
+    "type": "id"
+  },
+  {
+    "key": "soyadField",
+    "value": "//input[@name='surname']",
+    "type": "xpath"
+  },
+  {
+    "key": "emailField",
+    "value": "email",
+    "type": "id"
+  },
+  {
+    "key": "telefonField",
+    "value": "input[type='number'][name='tel']",
+    "type": "css"
+  },
+  {
+    "key": "websiteField",
+    "value": "input[type='text'][name='website']",
+    "type": "css"
+  },
+  {
+    "key": "submitButton",
+    "value": "submit-button",
+    "type": "id"
+  },
+  {
+    "key": "BasariMesaji",
+    "type": "xpath",
+    "value": "//div[contains(@class, 'success-message') and contains(text(), 'Başvurunuz başarıyla tamamlandı')]"
+  },
+    {
+      "key": "Logo",
+      "type": "xpath",
+      "value": "//img[@alt='Logo']"
+    },
+  {
+    "key": "headerTitle",
+    "type": "xpath",
+    "value": "//h2[contains(@class, 'section-title') and contains(text(), 'Ödemeler İçin İhtiyacınız Olan Her Şey')]"
+  },
+  {
+    "key": "headings",
+    "value": "div.main-section h2",
+    "type": "css"
+  },
+  {
+    "key": "productsTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Ürünler')]"
+  },
+  {
+    "key": "linkleOdeme",
+    "type": "xpath",
+    "value": "//div[@class='mega-menu-card__title' and .//b[contains(text(), 'Linkle')]]"
+  }
+,
+  {
+    "key": "urunleriMagazaPanelinizdenYonetin",
+    "type": "xpath",
+    "value": "//h2[@id='urunleri-magaza-panelinizden-kolayca-yonetin' and contains(@class, 'section-title')]"
+  },
+  {
+    "key": "gelistiricilerIcin",
+    "type": "xpath",
+    "value": "//h2[contains(@id, 'gelistiriciler-icin') and contains(@class, 'section-title')]"
+  },
+  {
+    "key": "nedenBiziTercihEdiyorlar",
+    "type": "xpath",
+    "value": "//h2[contains(text(), 'Neden Bizi Tercih Ediyorlar') and contains(@class, 'section-title')]"
+  },
+  {
+    "key": "isOrtaklari",
+    "type": "xpath",
+    "value": "//h2[contains(text(), 'İş Ortakları') and contains(@class, 'section-title')]"
+  },
+  {
+    "key": "sikcaSorulanSorular",
+    "type": "xpath",
+    "value": "//h2[contains(text(), 'Sıkça Sorulan Sorular') and contains(@class, 'accordion-title')]"
+  },
+    {
+      "key": "mainSections",
+      "type": "xpath",
+      "value": "//div[contains(@class, 'swiper-slide') and contains(@aria-label, '/ 12')]"
+    },
+  {
+    "key": "linkleOdemePageTitle",
+    "type": "xpath",
+    "value": "//h1[@id='linkle-odeme' and contains(text(), 'Linkle Ödeme')]"
+  },
+  {
+    "key": "linkleOdemeForm",
+    "type": "xpath",
+    "value": "//form[contains(@class, 'hero-form')]"
+  },
+  {
+    "key": "yetkiliAdiField",
+    "type": "xpath",
+    "value": "//input[@placeholder='Yetkili Adı']"
+  },
+  {
+    "key": "yetkiliSoyadiField",
+    "type": "xpath",
+    "value": "//input[@placeholder='Yetkili Soyadı']"
+  },
+  {
+    "key": "yetkiliEpostaField",
+    "type": "xpath",
+    "value": "//input[@placeholder='Yetkili E-Posta']"
+  },
+  {
+    "key": "yetkiliTelefonField",
+    "type": "xpath",
+    "value": "//input[@placeholder='Yetkili Telefon']"
+  },
+  {
+    "key": "referansNumarasi",
+    "type": "css",
+    "value": "a.style_reference__fbdIc"
+  },
+  {
+    "key": "isletmeTipiDropdown",
+    "type": "xpath",
+    "value": "//select[@name='isletmeTipi']"
+  },
+  {
+    "key": "onBasvuruButton",
+    "type": "xpath",
+    "value": "//button[contains(@class, 'button-primary-light') and contains(@class, 'size:large') and text()='Ön Başvuru Yap']"
+  },
+  {
+    "key": "aydinlatmaMetniCheckbox",
+    "type": "xpath",
+    "value": "//label[contains(@class, 'checkbox__label')]//span[contains(@class, 'checkbox__check') and contains(@class, 'size:medium')]\n"
+  },
+  {
+    "key": "limitedSirketOption",
+    "value": "div.select-items div:contains('Limited Şirket')",
+    "type": "css"
+  },
+  {
+    "key": "isletmeUnvani",
+    "type": "css",
+    "value": "#company_title"
+  },
+  {
+    "key": "vergiNumarasi",
+    "type": "css",
+    "value": "#tax_no"
+  },
+  {
+    "key": "vergiDairesi",
+    "type": "css",
+    "value": "#tax_office"
+  },
+  {
+    "key": "aylikCiro",
+    "type": "css",
+    "value": "#monthly_sale"
+  },
+  {
+    "key": "onBasvuruYapButton",
+    "type": "xpath",
+    "value": "//button[contains(@class, 'style_button__dHHoa') and text()='Ön Başvuruyu Yap']"
+  }
+,
+  {
+    "key": "basariliBasvuru",
+    "type": "xpath",
+    "value": "//h3[text()='Teşekkürler, ön başvurunuz tarafımıza ulaşmıştır.']"
+  }
+
+  ]
